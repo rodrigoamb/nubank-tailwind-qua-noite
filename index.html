@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aprendendo TailwindCSS</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <div>
+      <header class="bg-[#A223C6] flex justify-center py-[50px]">
+        <div class="w-[80%] flex flex-row justify-between items-center">
+          <img
+            class="w-[100px]"
+            src="https://www.melhorcambio.com/cartoes/images/nubank-logo.png"
+            alt="logo-nu"
+          />
+          <ul class="flex flex-row gap-[20px] text-xl text-white">
+            <li>Home</li>
+            <li>Cartões</li>
+            <li>Investimentos</li>
+            <li>Créditos</li>
+          </ul>
+        </div>
+      </header>
+
+      <main class="h-screen bg-[#f4f4f4] pt-10">
+        <section class="flex justify-center">
+          <div class="bg-red-300 w-[80%] h-[500px]">
+            <h2 class="text-5xl mb-12">Nossos dados Brasil</h2>
+            <div class="bg-blue-300 h-[100%] flex flex-row gap-6">
+              <div class="w-[50%] bg-red-400 h-[100%]"></div>
+              <div class="w-[50%] bg-red-400 h-[100%]">
+                <h3 class="text-4xl">Dados Nu Holdings</h3>
+                <div>
+                  <div>
+                    <div>
+                      <p>US$ 3,2 b</p>
+                      <p>de receita no T1`25.</p>
+                    </div>
+                    <div>
+                      <p>US$ 0,7</p>
+                      <p>
+                        de custo médio mensal de atendimento por cliente ativo
+                        no T1`25.
+                      </p>
+                    </div>
+                    <div>
+                      <p>US$ 11,2</p>
+                      <p>
+                        de receita média mensal por cliente ativo (ARPAC, na
+                        sigla em inglês) no T1`25.
+                      </p>
+                    </div>
+                  </div>
+                  <div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="bg-[#A223C6] text-white text-center py-10 text-xl">
+        &copy; Todos os direitos reservados para Nubank
+      </footer>
+    </div>
+  </body>
+</html>
